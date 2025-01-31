@@ -1,0 +1,85 @@
+//
+//  gitignore.swift
+//  balloonarch
+//
+//  Created by Rose, Alex on 2/4/25.
+//
+
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcuserdata
+*.xcbkptlist
+*.xcscmblueprint
+*.xcworkspace
+xcuserdata/
+build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+.build/
+.checkouts/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# AppCode
+.idea/
+
+# VSCode
+.vscode/
+
+# Local Development
+.env
+.env.local
+
+# Logs
+*.log
+
+# System Files
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# Firebase
+GoogleService-Info.plist
+
+# Miscellaneous
+*.orig
+*.bak
+*.backup
+*.tmp
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Ignore user-specific files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# Ignore playgrounds
+*.playground/
+
+# Ignore SwiftLint cache
+.swiftlintcache
+
+# Ignore SwiftPM dependencies
+.swiftpm/xcode/
