@@ -1,0 +1,6 @@
+framework module Pods_balloonarch {
+  umbrella header "Pods-balloonarch-umbrella.h"
+
+  export *
+  module * { export * }
+}
